@@ -1,0 +1,2 @@
+# cn_patents_csv_triplet_extraction
+使用lda、tf-idf等无监督算法加停用词表抽取专利主题信息构建企业间关系三元组
