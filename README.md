@@ -6,7 +6,7 @@
 
 ### script/knowledgeGraphGenerator_tfidf.py:自定义节点和边的筛选条件
 
-#### 配置文件路径可调整参数意义：script/config_knowledgeGraphGenerator_tfidf.json:
+#### 配置文件路径可调整参数意义：script/config_knowledgeGraphGenerator_tfidf.json:以下参数挑战
 
 1. `input_files`: 一个包含要处理的输入文件路径的列表。这些文件包含了需要用于构建知识图谱的数据。
 2. `max_features`: 用于 TF-IDF 计算的最大特征数量，即最终选择的关键词的数量上限。
@@ -39,3 +39,25 @@
 任何问题联系：bityhw@163.com
 
 项目最新更新：https://github.com/yuriamao/cn_patents_csv_triplet_extraction
+
+## 环境配置及运行
+
+### 环境配置：安装python==3.9.17，运行库参考requirement.txt
+
+个人安装方式：macos+miniconda+python
+
+miniconda及python安装： 参考网络
+
+### 运行代码
+
+在indus_kg路径下,运行
+
+```
+python script/knowledgeGraphGenerator_tfidf.py
+```
+
+## 运行结果截图展示
+
+![1699276939614](image/README/1699276939614.png)
+
+![1699276916968](image/README/1699276916968.png)
