@@ -3,9 +3,9 @@
     "max_features": 1000,
     "node_ratio": 0.1,
     "edge_ratio": 0.1,
-    "max_nodes": 5,
-    "min_nodes": 2,
-    "max_edges": 10,
+    "max_nodes": 25,
+    "min_nodes": 3,
+    "max_edges": 50,
     "min_edges": 5,
     "top_n_keywords": 10,
     "layout": "spring"

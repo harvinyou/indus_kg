@@ -23,6 +23,10 @@ class KnowledgeGraphGenerator:
         print('output_path:', self.output_folder)
 
     def read_excel(self, input_file):
+        # 下载中文停用词
+        nltk.download('stopwords',download_dir='data')
+        # 下载分词器
+        nltk.download('punkt',download_dir='data')
         pd_excel = pd.read_excel(input_file)
         return pd_excel
 

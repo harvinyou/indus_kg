@@ -36,10 +36,6 @@
 }
 ```
 
-任何问题联系：bityhw@163.com
-
-项目最新更新：https://github.com/yuriamao/cn_patents_csv_triplet_extraction
-
 ## 环境配置及运行
 
 ### 环境配置：安装python==3.9.17，运行库参考requirement.txt

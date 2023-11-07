@@ -13,7 +13,7 @@ import random
 # 专利文档路径
 # input_path = 'data/专利demo_test.xlsx'
 input_path = 'data/汽车制造业_test.xlsx'
-input_path = 'data/汽车制造业.xlsx'
+# input_path = 'data/汽车制造业.xlsx'
 
 # 下载中文停用词
 nltk.download('stopwords',download_dir='data')
