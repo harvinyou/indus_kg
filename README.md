@@ -52,6 +52,8 @@ miniconda及python安装： 参考网络
 python script/knowledgeGraphGenerator_tfidf.py
 ```
 
+运行结果output/“current_datatime"
+
 ## 运行结果截图展示
 
 ![1699276939614](image/README/1699276939614.png)
