@@ -1,4 +1,4 @@
-# cn_patents_csv_triplet_extraction
+# indus_kg
 
 介绍：使用lda、tf-idf等无监督算法加停用词表抽取专利主题信息构建企业间关系三元组
 
@@ -6,7 +6,7 @@
 
 ### script/knowledgeGraphGenerator_tfidf.py:自定义节点和边的筛选条件
 
-#### 配置文件路径可调整参数意义：script/config_knowledgeGraphGenerator_tfidf.json:以下参数挑战
+#### 配置文件路径可调整参数意义：script/config_knowledgeGraphGenerator_tfidf.json:
 
 1. `input_files`: 一个包含要处理的输入文件路径的列表。这些文件包含了需要用于构建知识图谱的数据。
 2. `max_features`: 用于 TF-IDF 计算的最大特征数量，即最终选择的关键词的数量上限。
